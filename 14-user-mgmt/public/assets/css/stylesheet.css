@@ -1,0 +1,179 @@
+body {
+    min-height:90vh;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.loginForm, .registerForm{
+    display: grid;
+    grid-template-rows: 1fr  5fr 1fr;
+    width: 100vw;
+}
+.goTo {
+    font-size: 2.5vw;
+    margin: auto;
+    margin-right: 1vw;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;  
+    padding: 1vw;
+    padding-top: 0;
+}
+
+.upSection{
+    font-size: 2.5vw;
+    display: flex;
+    grid-row: 1;
+    border-bottom: 2px solid black;
+    width: 100vw;
+}
+.submitInput{
+    font-size: 1.5vw;
+    padding: 1vw;
+    grid-row: 3;
+    margin: auto;
+}
+  
+.formSection{
+    display: grid;
+    margin: auto;
+    gap: 2vh;
+    grid-row: 2;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.formSection input{
+    font-size: 1.5vw;
+}
+
+.formSection label{
+    font-size: 1.5vw;
+}
+
+.formSection span{
+    font-size: 1.5vw;
+}
+
+.menuForm{
+    display: flex;
+    margin: 1vw;
+    justify-content: end;
+}
+
+.imgs, .imgForm{
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imgs a, .imgContainer{
+    padding: 1vh 1vw;
+    border: 7px outset saddlebrown;
+    margin: 1vw;
+    background-color: antiquewhite;
+    color: black;
+    text-decoration: none;
+}
+
+.imgInfo{
+    display: grid;
+    width: 40vw;
+}
+.imgInfo p, .imgInfo span{
+    font-size: 2vw;
+}
+
+
+.imgs a img{
+    height: 60vh;
+}
+
+.imgContainer img{
+    height: 55vh;
+}
+
+#ocultar{
+    display: none;
+}
+
+.perfilForm{
+    display: grid;
+    gap: 2vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+}
+
+.perfilForm input{
+    font-size: 1.5vw;
+    height: 4vh;
+}
+
+.perfilForm label{
+    font-size: 1.5vw;
+}
+
+.perfilForm span{
+    font-size: 1.5vw;
+}
+
+.logoutForm{
+    display: grid;
+    gap: 6vw;
+    justify-content: center;
+
+}
+
+.logoutForm input{
+    font-size: 1.5vw;
+    height: 7vh;
+    width: 50vw;
+}
+
+.logoutForm label{
+    font-size: 7vw;
+}
+
+
+.bajaForm{
+    display: grid;
+    gap: 6vw;
+    justify-content: center;
+
+}
+
+.bajaForm input{
+    font-size: 1.5vw;
+    height: 7vh;
+    width: 50vw;
+}
+
+.bajaSection{
+    font-size: 1.5vw;
+    height: 7vh;
+    width: 50vw;
+}
+.bajaSection label{
+    font-size: 1.5vw;
+    height: 7vh;
+    width: 25vw;
+}
+.bajaSection input{
+    font-size: 1.5vw;
+    height: 7vh;
+    width: 25vw;
+    margin-left: 8VW;
+}
+
+.bajaForm h2{
+    font-size: 4vw;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 2px solid black;
+    margin: 0;
+    padding-bottom: 2vh;
+}
