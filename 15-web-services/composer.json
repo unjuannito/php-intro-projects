@@ -1,0 +1,16 @@
+{
+    "name": "phpintroprojects/web-services",
+    "type": "project",
+    "require": {
+        "eftec/bladeonehtml": "^2.2",
+        "google/apiclient": "^2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpintroprojects\\WebServices\\": "src/"
+        }
+    },
+    "config": {
+        "process-timeout": 1200
+    }
+}
