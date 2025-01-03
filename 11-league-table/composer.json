@@ -1,0 +1,13 @@
+{
+    "name": "phpintroprojects/leaguetable",
+    "description": "Guess a number",
+    "type": "project",
+    "require": {
+        "eftec/bladeone": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpintroprojects\\leaguetable\\": "src/"
+        }
+    }
+}
