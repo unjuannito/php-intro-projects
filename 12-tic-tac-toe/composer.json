@@ -1,0 +1,13 @@
+{
+    "name": "phpintroprojects/tic-tac-toe",
+    "description": "tic tac toe game",
+    "type": "project",
+    "require": {
+        "eftec/bladeone": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpintroprojects\\TicTacToe\\": "src/"
+        }
+    }
+}
